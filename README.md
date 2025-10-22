@@ -33,21 +33,20 @@ Project Structure:
 springorm/
 │
 ├── pom.xml
-│
-├── config.xml                     (Spring configuration file)
+├── config.xml                 # Spring configuration file
 │
 ├── src/
 │   ├── main/
 │   │   └── java/
 │   │       └── com/spring/orm/
-│   │           ├── App.java        (Main entry point - CLI interface)
-│   │           ├── Test.java       (Optional test runner)
+│   │           ├── App.java            # Main entry point - CLI interface
+│   │           ├── Test.java           # Optional test runner
 │   │           │
 │   │           ├── Dao/
-│   │           │   └── StudentDao.java   (Handles CRUD operations using Hibernate)
+│   │           │   └── StudentDao.java # Handles CRUD operations using Hibernate
 │   │           │
 │   │           └── entities/
-│   │               └── Student.java      (Entity class mapped to the student table)
+│   │               └── Student.java    # Entity class mapped to the student table
 │   │
 │   └── test/
 │       └── java/
