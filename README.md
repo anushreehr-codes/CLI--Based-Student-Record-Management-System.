@@ -39,8 +39,8 @@ springorm/
 │   ├── main/
 │   │   └── java/
 │   │       └── com/spring/orm/
-│   │           ├── App.java            # Main entry point - CLI interface
-│   │           ├── Test.java           # Optional test runner
+│   │           ├── App.java            # Optional test runner
+│   │           ├── Test.java           # Main entry point - CLI interface
 │   │           │
 │   │           ├── Dao/
 │   │           │   └── StudentDao.java # Handles CRUD operations using Hibernate
@@ -53,3 +53,14 @@ springorm/
 │           └── (Unit tests, if applicable)
 │
 └── README.md
+
+| Path | Description |
+|------|--------------|
+| springorm/pom.xml | Maven project descriptor |
+| springorm/config.xml | Spring configuration file |
+| springorm/src/main/java/com/spring/orm/App.java | Main entry point – CLI interface |
+| springorm/src/main/java/com/spring/orm/Test.java | Optional test runner |
+| springorm/src/main/java/com/spring/orm/Dao/StudentDao.java | Handles CRUD operations using Hibernate |
+| springorm/src/main/java/com/spring/orm/entities/Student.java | Entity class mapped to the database table |
+| springorm/src/test/java/ | Contains unit tests (if applicable) |
+| springorm/README.md | Project documentation |
