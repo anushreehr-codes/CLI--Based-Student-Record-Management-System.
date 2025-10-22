@@ -21,18 +21,27 @@ Technologies used:
 | Build Tool           | Maven                   |
 | IDE                  | Eclipse                 |
 
+Key Concepts Implemented:
+1.Spring ORM Configuration and Dependency Injection
+2.Hibernate Template usage for database persistence
+3.Data Access Object (DAO) design pattern
+4.CRUD operations with Hibernate
+5.Console-based user interface for interaction
+
 Project Structure:
+
 springorm/
 │
 ├── pom.xml
+│
+├── config.xml                     (Spring configuration file)
 │
 ├── src/
 │   ├── main/
 │   │   └── java/
 │   │       └── com/spring/orm/
-│   │           ├── App.java              (Main entry point - CLI interface)
-│   │           ├── Test.java             (Optional test runner)
-│   │           ├── config.xml            (Spring configuration file)
+│   │           ├── App.java        (Main entry point - CLI interface)
+│   │           ├── Test.java       (Optional test runner)
 │   │           │
 │   │           ├── Dao/
 │   │           │   └── StudentDao.java   (Handles CRUD operations using Hibernate)
@@ -45,10 +54,3 @@ springorm/
 │           └── (Unit tests, if applicable)
 │
 └── README.md
-
-Key Concepts Implemented:
-1.Spring ORM Configuration and Dependency Injection
-2.Hibernate Template usage for database persistence
-3.Data Access Object (DAO) design pattern
-4.CRUD operations with Hibernate
-5.Console-based user interface for interaction
