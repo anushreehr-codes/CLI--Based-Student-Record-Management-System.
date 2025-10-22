@@ -64,3 +64,4 @@ springorm/
 | springorm/src/main/java/com/spring/orm/entities/Student.java | Entity class mapped to the database table |
 | springorm/src/test/java/ | Contains unit tests (if applicable) |
 | springorm/README.md | Project documentation |
+
